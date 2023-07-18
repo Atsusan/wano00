@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<!-- OGP宣言 -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
+	<title>株式会社わのてっく</title>
+	<meta name="description" content="わのてっくは、既存のシステム、デザイン、WEBサイトを
+    より良いものにするために、少し手を加える提案をする会社です。"><!-- 概要欄 -->
+	<meta property="og:title" content="株式会社わのてっく"><!-- OGPタイトル -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://example.com/"><!-- OGPサイトURL -->
+	<meta property="og:image" content="https://example.com/img/ogp.png"><!-- OGPサムネイル -->
+	<!-- <meta property="og:site_name" content="タイトル"> -->
+	<!-- OGPサイトネーム -->
+	<meta property="og:description" content="わのてっくは、既存のシステム、デザイン、WEBサイトを
+    より良いものにするために、少し手を加える提案をする会社です。"><!-- OGPサイトの概要欄 -->
+	<meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/e6e1cd3731.js" crossorigin="anonymous"></script>
+	<!-- Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- wow -->
+	<link rel="stylesheet" href="./assets/css/animate.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-- ファビコンの設定 -->
+	<!-- ファビコンの設定 -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="androido-chrome-192x192.png">
+</head>
+
+<body class="body">
+	<div class="container">
+		<header id="header" class="header">
+			<div class="is-active-950">
+				<h1 class="header-logo">
+					<div class="header-logo-textImg">
+						<img src="./assets/img/mv-logoText-Wh.svg" alt="">
+					</div>
+					<div class="header-logo-img">
+						<img src="./assets/img/mv-logo-Wh.svg" alt="">
+					</div>
+					<span class="header-logo-line"></span>
+				</h1>
+				<nav class="header-nav">
+					<ul class="header-nav-list">
+						<li class="header-nav-item">
+							<a href="#product" class="header-nav-item-link">制作実績</a>
+						</li>
+						<li class="header-nav-item">
+							<a href="#service" class="header-nav-item-link">サービス</a>
+						</li>
+						<li class="header-nav-item">
+							<a href="#profile" class="header-nav-item-link">社員紹介</a>
+						</li>
+						<li class="header-nav-item">
+							<a href="#about" class="header-nav-item-link">会社概要</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="header-snsArea">
+					<li class="header-sns">
+						<a href="https://twitter.com/" class="header-sns-link">
+							<img src="./assets/img/twitter.svg" alt="">
+						</a>
+					</li>
+					<li class="header-sns">
+						<a href="https://ja-jp.facebook.com/" class="header-sns-link">
+							<img src="./assets/img/facebook.svg" alt="">
+						</a>
+					</li>
+				</ul>
+				<!-- /.header-snsArea -->
+				<ul class="header-btn-list">
+					<li class="header-btn-item">
+						<a href="./download.pdf" class="header-btn-item-link">
+							会社案内
+							<br>
+							ダウンロード
+						</a>
+					</li>
+					<li class="header-btn-item">
+						<a href="#contact" class="header-btn-item-link">
+							お問い合わせ
+						</a>
+					</li>
+				</ul>
+				<!-- /.header-btn-list -->
+			</div>
+			<!-- /.is-active-950 PC時のheader表示-->
+			<div class="is-hidden-950">
+				<div class="inner">
+					<h1 class="header-logo-sp">
+						<div class="header-logo-textImg-sp">
+							<img src="./assets/img/mv-logoText-Wh.svg" alt="">
+						</div>
+						<div class="header-logo-img-sp">
+							<img src="./assets/img/mv-logo-Wh.svg" alt="">
+						</div>
+					</h1>
+
+					<div class="drawer-openbtn"><span></span><span></span><span></span></div>
+					<nav id="g-nav">
+						<div id="g-nav-list">
+							<ul>
+								<li><a href="#product">制作実績</a></li>
+								<li><a href="#service">サービス</a></li>
+								<li><a href="#profile">社員紹介</a></li>
+								<li><a href="#about">会社概要</a></li>
+								<div class="header-snsArea-sp">
+									<li class="header-sns-sp">
+										<a href="https://twitter.com/" class="header-sns-link-sp">
+											<img src="./assets/img/twitter.svg" alt="">
+										</a>
+									</li>
+									<li class="header-sns-sp">
+										<a href="https://ja-jp.facebook.com/" class="header-sns-link-sp">
+											<img src="./assets/img/facebook.svg" alt="">
+										</a>
+									</li>
+								</div>
+								<!-- /.header-snsArea -->
+								<div class="header-btn-list-sp">
+									<li class="header-btn-item-sp">
+										<a href="./download.pdf" class="header-btn-item-link-sp">
+											会社案内
+											<br>
+											ダウンロード
+										</a>
+									</li>
+									<li class="header-btn-item-sp">
+										<a href="#contact" class="header-btn-item-link-sp">
+											お問い合わせ
+										</a>
+									</li>
+								</div>
+
+							</ul>
+						</div>
+					</nav>
+					<div class="drawer-circle-bg"></div>
+				</div>
+				<!-- /.header-sp -->
+			</div>
+			<!-- /.inner -->
+		</header>
+		<!-- /#header.header -->
+
+		<div class="mv">
+			<!-- Slider main container -->
+			<div class="swiper swiper01">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide mv-img">
+						<img src="./assets/img/mv-01.jpg" alt="メインビジュアル01">
+					</div>
+					<div class="swiper-slide mv-img">
+						<img src="./assets/img/mv-02.jpg" alt="メインビジュアル02">
+					</div>
+					<div class="swiper-slide mv-img">
+						<img src="./assets/img/mv-03.jpg" alt="メインビジュアル03">
+					</div>
+				</div>
+			</div>
+			<div class="mv-textArea">
+				<p class="mv-text">
+					困りごとに寄り添い、
+					<br>
+					最適をかなえるIT集団。
+				</p>
+			</div>
+			<!-- /.mv-textArea -->
+		</div>
+		<!-- /.mv -->
+
+		<div class="read is-active-pc wow fadeInUp">
+			<div class="inner">
+				<p>古来より日本では、「和を以て貴しと為す」で歴史が始まり、「わをん」で50音が終わってきました。</p>
+				<p>「<span>わ</span>」は、日本を表す「<span>和</span>」、人とのコミュニケーションを表す「<span>話</span>」、足し合わせる「足し算の<span>和</span>」、
+				</p>
+				<p class="read-text-span">無限大やループを意識する「<span>輪・環</span>」、飛び跳ねる「<span>羽</span>」。</p>
+				<p class="read-text-span">
+					さまざまな変化を繰り返す「<span>わ</span>」を、その時々に合わせて解釈し、お客様のご要望をIT技術と「<span>わ</span>」で叶えてゆく。</p>
+				<p class="read-text-span">わのてっくは、そんな「<span>わ</span>」にこだわり、「<span>わ</span>」の意味を考え続けるIT集団です。</p>
+			</div>
+			<!-- /.inner -->
+		</div>
+		<!-- /.read -->
+
+		<main class="contents">
+
+			<!-- product-miyake -->
+			<section id="product" class="product section">
+				<div class="inner">
+					<div class="product-titleArea section-titleArea wow fadeInUp">
+						<h2 class="product-title section-title">制作事例</h2>
+						<span class="product-title-sub section-title-sub">CASE</span>
+						<!-- /.product-title section-title -->
+					</div>
+					<!-- /.product-titleArea section-titleArea -->
+					<div class="product-content">
+						<div class="product-read wow fadeInUp">
+							<p>
+								こちらでは、制作実績の一部をご紹介します。
+								<br>
+								わのてっくは、お客様の問題解決のために寄り添い、最適をかなえるためのお手伝いをすることでお役に立ちます。
+								<br class="is-active-pc">
+								サービスに関するご相談など、ぜひお気軽にお問い合わせください。
+							</p>
+						</div>
+						<!-- /.product-read -->
+						<div class="product-swiper-container is-active-pc">
+							<div class="swiper swiper02">
+								<!-- Additional required wrapper -->
+								<ul class="swiper-wrapper">
+									<!-- Slides -->
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">会報誌の制作<span class="product-item-title-span">2023.06.20</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/product-img01.jpg" alt="会報誌の制作">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													会報誌の制作。毎月同じような雛形を利用しながらも、記事の中身とバランスを考え、読みやすいように文章、画像を調整しながら制作しています。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">セミナー案内の制作<span class="product-item-title-span">2023.06.20</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/product-img02.jpg" alt="ミナー案内の制作">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													セミナー案内の制作。著名人をお迎えしたセミナー＆名刺交換・交流会の案内パンフレットを制作。完成した案内の送付日程から逆算し、
+													スケジュール優先で制作を行ないました。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">システム開発<span class="product-item-title-span">2023.06.20</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/product-img03.jpg" alt="システム開発">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													システム開発。Pythonを用いて工場の受発注システムをWeb上に構築。取引先様からの電子データを自社の受発注業務に連動させたり、社外から作業指示を出したりすることが可能になりました。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">Webサイト制作<span class="product-item-title-span">2023.01.10</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/product-img01.jpg" alt="会報誌の制作">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													自治会サイトの制作。地域の回覧板やお知らせを、誰でもが更新することができます。
+													他担当者の入力記事をかき消さないようにそれぞれの担当ごとに権限（ロール）を設定。
+													使いやすさを提案したサイトです。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">タイトル<span class="product-item-title-span">2000.00.00</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/mv-03.jpg" alt="タイトル">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+									<li class="swiper-slide swiper-slide02">
+										<div class="product-item">
+											<p class="product-item-title">タイトル<span class="product-item-title-span">2000.00.00</span></p>
+											<div class="product-item-img">
+												<img src="assets/img/mv-01.jpg" alt="タイトル">
+											</div>
+											<!-- /.product-item-img -->
+											<div class="product-item-body">
+												<p class="product-item-body-text">
+													この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+												</p>
+											</div>
+											<!-- /.product-item-body -->
+										</div>
+										<!-- /.product-item -->
+									</li>
+								</ul>
+								<!-- If we need pagination -->
+								<div class="swiper-pagination swiper-pagination02"></div>
+							</div>
+						</div>
+						<!-- /.product-swiper-container -->
+						<ul class="product-list is-active-sp">
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img01.jpg" alt="会報誌の制作">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">会報誌の制作<span class="product-item-title-span">2023.06.20</span></p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										会報誌の制作。毎月同じような雛形を利用しながらも、記事の中身とバランスを考え、読みやすいように文章、画像を調整しながら制作しています。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img02.jpg" alt="セミナー案内の制作">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">セミナー案内の制作<span class="product-item-title-span">2023.06.20</span>
+								</p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										セミナー案内の制作。著名人をお迎えしたセミナー＆名刺交換・交流会の案内パンフレットを制作。完成した案内の送付日程から逆算し、
+										スケジュール優先で制作を行ないました。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img03.jpg" alt="システム開発">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">システム開発<span class="product-item-title-span">2023.06.20</span></p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										システム開発。Pythonを用いて工場の受発注システムをWeb上に構築。取引先様からの電子データを自社の受発注業務に連動させたり、社外から作業指示を出したりすることが可能になりました。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img01.jpg" alt="Webサイト制作">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">Webサイト制作<span class="product-item-title-span">2023.01.10</span>
+								</p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										自治会サイトの制作。地域の回覧板やお知らせを、誰でもが更新することができます。
+										他担当者の入力記事をかき消さないようにそれぞれの担当ごとに権限（ロール）を設定。
+										使いやすさを提案したサイトです。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img02.jpg" alt="タイトル">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">タイトル<span class="product-item-title-span">2000.00.00</span></p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+							<li class="product-item">
+								<div class="product-item-img">
+									<img src="assets/img/product-img03.jpg" alt="タイトル">
+								</div>
+								<!-- /.product-item-img -->
+								<p class="product-item-title">タイトル<span class="product-item-title-span">2000.00.00</span></p>
+								<div class="product-item-body">
+									<p class="product-item-body-text">
+										この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+									</p>
+									<span class="product-item-body-span"></span>
+								</div>
+								<!-- /.product-item-body -->
+							</li>
+							<!-- /.product-item -->
+						</ul>
+					</div>
+					<!-- /.product-content -->
+				</div>
+				<!-- /.inner -->
+			</section>
+			<!-- /#product.product -->
+
+			<section id="solution" class="solution section">
+				<div class="inner">
+					<div class="solution-titleArea section-titleArea wow fadeInUp">
+						<h2 class="solution-title section-title">こんなお悩みありませんか？</h2>
+						<span class="solution-title-sub section-title-sub">SOLUTION</span>
+						<!-- /.solution-title section-title -->
+					</div>
+					<!-- solution-titleArea section-titleArea -->
+					<div class="solution-worries-bg wow fadeInUp">
+						<picture>
+							<source srcset="./assets/img/img-pc.svg" media="(min-width: 768px)" />
+							<!-- ↓幅768px以上で表示↓ -->
+							<img src="./assets/img/img-sp.svg" alt="悩んでいる人">
+						</picture>
+					</div>
+					<!-- /.solution-worries -->
+					<div class="solution-textArea">
+						<p class="solution-textArea wow fadeInUp">
+							<span class="solution-textArea-span">わのてっく</span>にお任せください
+						</p>
+					</div>
+					<!-- /.solution-textArea -->
+					<div class="solution-text-box wow fadeInUp">
+						<p class="solution-text-box1 solution-text">わのてっくは、既存の仕組み、デザイン、WEB<br class="solution-sp">サイトを
+							<br class="solution-pc">
+							<span class="solution-text-span">より良いものにするため</span>に、少し手を加<br class="solution-sp">える提案をする会社です。
+						</p>
+						<p class="solution-text-box2 solution-text">
+							新たな仕組みを構築する際に、専門知識がないこ<br class="solution-sp">
+							とで生じる不安や困りごとを、
+							<br class="solution-pc">
+							<span class="solution-text-span">セカンドオピニオ<br class="solution-sp">ンの立場で解消する</span>ことで
+							<br class="solution-pc">
+							お役に立つことも我々<br class="solution-sp">のミッションです。
+						</p>
+						<p class="solution-text-box3 solution-text">
+							さまざまな問題解決のためにお客様に寄り添い、
+							<br>
+							<span class="solution-text-span">最適をかなえるためのお手伝い</span>をすることでお役<br class="solution-sp">に立ちます。
+						</p>
+					</div>
+					<!--/.solution-text-box-->
+				</div>
+				<!-- /.inner -->
+				<div class="solution"></div>
+				<!-- /.solution -->
+			</section>
+			<!-- /#solution.solution -->
+
+			<section id="service" class="service section">
+				<div class="inner">
+					<div class="service-titleArea section-titleArea wow fadeInUp">
+						<h2 class="service-title section-title">3つのサービス</h2>
+						<h3 class="section-title-sub section-title-sub">SERVICE</h3>
+						<!-- /.service-title section-title -->
+					</div>
+					<!-- /.service-titleArea section-titleArea -->
+					<div class="service-content">
+						<div class="service-circleArea">
+							<img src="./assets/img/service-icon.svg" alt="">
+						</div>
+						<!-- /.service-circleArea -->
+						<ul class="service-card-list">
+							<li class="service-card-item">
+								<div class="service-card-head">
+									<img src="./assets/img/service-icon01.png" alt="ギアーのアイコン">
+								</div>
+								<div class="service-card-titleArea">
+									<span class="service-card-number">01</span>
+									<h3 class="service-card-title">
+										システムインテグレーションサービス
+										<br>システム開発・サーバー＆ネットワーク構築
+									</h3>
+								</div>
+								<div class="service-card-footer">
+									<p class="service-card-text">我々の強みは、お客様の身近な存在であり続けることです。
+										何が最適なのかを独断的に判断することなく、お客様と一緒に話し合い、より使いやすく効率的なシステムを作り上げます。
+										また、単にシステムを作るのではなく、目的、効果を的確に判断し、あらゆるフェーズのお手伝いをします。
+									</p>
+									<div class="modal-openArea">
+										<span data-micromodal-trigger="modal-1" class="modal-open">
+											詳しくはこちら
+										</span>
+									</div>
+								</div>
+								<!-- /.service-card-footer -->
+							</li>
+							<li class="service-card-item">
+								<div class="service-card-head">
+									<img src="./assets/img/service-icon02.png" alt="PCのアイコン">
+								</div>
+								<div class="service-card-titleArea">
+									<span class="service-card-number">02</span>
+									<h3 class="service-card-title">
+										デザインサービス
+										<br>印刷広告・Webサイト
+									</h3>
+								</div>
+								<div class="service-card-footer">
+									<p class="service-card-text">
+										広告やWebサイトを作りたいお客様のことだけではなく、その先におられるエンドユーザーのことも意識して制作しています。ご要望に応じたデザインの中に、ユーザーのもとに届いているシーンがイメージできるようなご提案をします。
+									</p>
+									<div class="modal-openArea">
+										<span data-micromodal-trigger="modal-2" class="modal-open">
+											詳しくはこちら
+										</span>
+									</div>
+								</div>
+								<!-- /.service-card-footer -->
+							</li>
+							<li class="service-card-item">
+								<div class="service-card-head">
+									<img src="./assets/img/service-icon03.png" alt="グラフのアイコン">
+								</div>
+								<div class="service-card-titleArea">
+									<span class="service-card-number">03</span>
+									<h3 class="service-card-title">
+										Webマーケティング
+										<br> Webを利用した戦略的マーケティング提案
+									</h3>
+								</div>
+								<div class="service-card-footer">
+									<p class="service-card-text">
+										商品企画を始めとするアイデア創造、分析のお手伝いをします。単にSEO（検索エンジン最適化）やSEM（検索エンジンマーケティング）の提案、<br>ログの解析だけでなく、消費者の意識を考えた戦略の提案も行ないます。
+									</p>
+									<div class="modal-openArea">
+										<span data-micromodal-trigger="modal-3" class="modal-open">
+											詳しくはこちら
+										</span>
+									</div>
+								</div>
+								<!-- /.service-card-footer -->
+							</li>
+						</ul>
+					</div>
+					<!-- /.service-content -->
+				</div>
+				<!-- /.inner -->
+			</section>
+			<!-- /#service.service -->
+			<section id="profile" class="profile section">
+				<div class="inner">
+					<div class="product-titleArea section-titleArea">
+						<h2 class="product-title section-title">社員紹介</h2>
+						<span class="product-title-sub section-title-sub">PROFESSIONAL</span>
+						<!-- /.product-title section-title -->
+					</div>
+					<!-- /.profile-titleArea section-titleArea -->
+					<div class="profile-content">
+						<div class="profile-item">
+							<div class="profile-item-img">
+								<img src="./assets/img/profile-ozaki-01.png" alt="photo-ozaki">
+							</div>
+							<div class="profile-body">
+								<p class="profile-name profile-hidden-1200">SI開発部　尾崎 卓治</p>
+								<div class="profile-textArea">
+									<div class="profile-textArea-img">
+										<img src="./assets/img/glaf.svg.svg" alt="グラフ">
+									</div>
+									<div class="profile-textArea-text">
+										<p class="profile-name profile-active-1200">SI開発部　尾崎 卓治</p>
+										<p class="profile-Introduction">
+											この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+											この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="profile-item">
+							<div class="profile-item-img">
+								<img src="./assets/img/profile-ogata-02.png" alt="photo-ozaki">
+							</div>
+							<div class="profile-body">
+								<p class="profile-name profile-hidden-1200">Web・DTPデザイン部　尾形 望</p>
+								<div class="profile-textArea">
+									<div class="profile-textArea-img">
+										<img src="./assets/img/glaf.svg.svg" alt="グラフ">
+									</div>
+									<div class="profile-textArea-text">
+										<p class="profile-name profile-active-1200">Web・DTPデザイン部　尾形 望</p>
+										<p class="profile-Introduction">
+											この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+											この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="profile-item">
+							<div class="profile-item-img">
+								<img src="./assets/img/img006-03.png" alt="高山">
+							</div>
+							<div class="profile-body">
+								<p class="profile-name profile-hidden-1200">Webマーケティング部　髙山 信弥</p>
+								<div class="profile-textArea">
+									<div class="profile-textArea-img">
+										<img src="./assets/img/glaf.svg.svg" alt="グラフ">
+									</div>
+									<div class="profile-textArea-text">
+										<p class="profile-name profile-active-1200">Webマーケティング部　髙山 信弥</p>
+										<p class="profile-Introduction">
+											今ホームページやシステムに少しでも違和感を感じられているなら、是非お話させてください！
+											<br class="is-active-pc">
+											セカンドオピニオンとして今のものをさらに良くするためのご意見を申し上げます。
+											<br class="is-active-pc">
+											”できない”でなく”できる”を考えてご提案します。
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.profile-content -->
+					</div>
+				</div>
+				<!-- /.inner -->
+			</section>
+			<!-- /#profile.profile -->
+			<section id="contact" class="contact section">
+				<div class="inner">
+					<div class="contact-head-bg">
+						<div class="contact-titleArea section-titleArea wow fadeInUp">
+							<h2 class="contact-title section-title">お問い合わせ</h2>
+							<span class="contact-title-sub section-title-sub">CONTACT</span>
+							<!-- /.contact-title section-title -->
+						</div>
+					</div>
+					<!-- /.contact-head-bg -->
+					<div class="contact-content">
+						<div class="contact-form-contents is-active-pc">
+							<form class="contact-form" action="example.php" method="post" name="contact-form">
+								<dl class="contact-form-dl">
+									<div class="contact-form-item">
+										<dt><span class="contact-form-item-red">必須</span>お名前</dt>
+										<dd>
+											<input type="text" name="name">
+										</dd>
+									</div>
+									<div class="contact-form-item">
+										<dt><span class="contact-form-item-gray">任意</span>会社名</dt>
+										<dd>
+											<input type="text" name="company">
+										</dd>
+									</div>
+									<div class="contact-form-item">
+										<dt><span class="contact-form-item-red">必須</span>お問い合わせ種別</dt>
+										<dd>
+											<select name="your-subject">
+												<option disabled selected>- - -</option>
+												<option value="1">システムインテグレーションサービス</option>
+												<option value="2">デザインサービス</option>
+												<option value="3">Webマーケティングサービス</option>
+												<option value="4">その他</option>
+											</select>
+										</dd>
+									</div>
+									<div class="contact-form-item">
+										<dt><span class="contact-form-item-red">必須</span>お問い合わせ内容</dt>
+										<dd><textarea name="message"></textarea></dd>
+									</div>
+								</dl>
+								<div class="contact-individual-text">
+									<input type="checkbox" id="custom02" value="保護方針" name="agree">
+									<label for="custom02" class="custom-style contact-individual-center">
+									</label>
+									<a class="contact-personal" href="./personal.html">個人情報保護方針</a>に同意する
+								</div>
+								<div class="contact-submit">
+									<input id="submitButton01" class="contact-submit-button" type="submit" value="送信">
+								</div>
+							</form>
+						</div>
+
+						<div class="contact-read-sp is-active-sp">
+							お電話もしくはフォームにて<br>
+							お気軽にお問い合わせください
+						</div>
+						<!-- /.contact-text-sp is-active-sp -->
+
+						<div class="contact-tell-area contact-tell-sp">
+							<p class="contact-tell-read is-active-pc">お電話でのお問い合わせも可能です</p>
+							<a href="tel:0721-123-4567" class="contact-tell-number">0721-123-4567</a>
+							<p class="contact-time">
+								(受付時間 10:00-17:00)
+							</p>
+
+							<div class="contact-form-buttonArea-sp">
+								<div class="is-active-sp">
+									<div class="accordion-head contact-form-button-sp">お問い合わせフォーム</div>
+									<div class="accordion-body">
+										<div class="accordion-body-in">
+											<form class="contact-form" action="example.php" method="post" name="contact-form">
+												<dl class="contact-form-dl">
+													<div class="contact-form-item">
+														<dt><span class="contact-form-item-red">必須</span>お名前</dt>
+														<dd>
+															<input type="text" name="name">
+														</dd>
+													</div>
+													<div class="contact-form-item">
+														<dt><span class="contact-form-item-gray">任意</span>会社名</dt>
+														<dd>
+															<input type="text" name="company">
+														</dd>
+													</div>
+													<div class="contact-form-item">
+														<dt><span class="contact-form-item-red">必須</span>お問い合わせ種別</dt>
+														<dd>
+															<select name="your-subject">
+																<option disabled selected>- - -</option>
+																<option value="1">システムインテグレーションサービス</option>
+																<option value="2">デザインサービス</option>
+																<option value="3">Webマーケティングサービス</option>
+																<option value="4">その他</option>
+															</select>
+														</dd>
+													</div>
+													<div class="contact-form-item">
+														<dt><span class="contact-form-item-red">必須</span>お問い合わせ内容</dt>
+														<dd><textarea name="message"></textarea></dd>
+													</div>
+												</dl>
+												<div class="contact-individual-text">
+													<input type="checkbox" id="custom01" value="保護方針" name="agree2">
+													<label for="custom01" class="custom-style contact-individual-center"></label>
+													<a class="contact-personal" href="./personal.html">個人情報保護方針</a>に同意する
+												</div>
+												<div class="contact-submit">
+													<input id="submitButton02" class="contact-submit-button" type="submit" value="送信">
+												</div>
+											</form>
+										</div><!-- /.accordion-body-in -->
+									</div>
+								</div>
+
+								<div class="contact-download-button">
+									<a href="./download.pdf" download>会社案内をダウンロード</a>
+								</div>
+							</div>
+						</div>
+						<!-- /.contact-textArea -->
+					</div>
+					<!-- /.contact-content -->
+				</div>
+				<!-- /.inner -->
+			</section>
+			<!-- /#contact.contact -->
+
+			<section id="about" class="about section">
+				<div class="inner">
+					<div class="about-logo is-active-sp">
+						<img src="./assets/img/footer-logo.svg" alt="わのてっくロゴ">
+					</div>
+					<!-- /.about-logo -->
+					<div class="about-titleArea section-titleArea wow fadeInUp">
+						<h2 class="about-title section-title">会社概要</h2>
+						<!-- /.about-title section-title -->
+					</div>
+					<div class="about-content">
+						<dl class="about-list">
+							<div class="about-item">
+								<dt class="about-dt">社名</dt>
+								<dd class="about-dd">株式会社わのてっく</dd>
+							</div>
+							<div class="about-item">
+								<dt class="about-dt">設立</dt>
+								<dd class="about-dd">2023 年 6 月</dd>
+							</div>
+							<div class="about-item">
+								<dt class="about-dt">資本金</dt>
+								<dd class="about-dd">450 千円</dd>
+							</div>
+							<div class="about-item">
+								<dt class="about-dt">役員</dt>
+								<ul class="about-item-peopleList">
+									<li class="about-item-peopleitem">
+										<dd class="about-dd  about-people">
+											<span class="about-people-left">代表取締役社長</span>
+											<span class="about-people-right">尾崎 卓治</span>
+										</dd>
+									</li>
+									<li class="about-item-peopleitem">
+										<dd class="about-dd about-people">
+											<span class="about-people-left">取締役</span>
+											<span class="about-people-right">尾形 望</span>
+										</dd>
+									</li>
+									<li class="about-item-peopleitem">
+										<dd class="about-dd about-people">
+											<span class="about-people-left">取締役</span>
+											<span class="about-people-right">髙山 信弥</span>
+										</dd>
+									</li>
+								</ul>
+							</div>
+							<div class="about-item">
+								<dt class="about-dt">主要取引銀行</dt>
+								<dd class="about-dd">みなと銀行</dd>
+							</div>
+							<div class="about-item">
+								<dt class="about-dt">主要取引先</dt>
+								<dd class="about-dd about-deal">学校法人創造社デザイン専門学校、<br class="is-active-sp">
+									株式会社キャリアプラン、<br>
+									株式会社ディーネット、<br class="is-active-sp">協同組合ビジネス交流センター、<br>
+									マツモラ産業株式会社、<br class="is-active-sp">株式会社アルサス&emsp;&emsp;&emsp;&emsp;他</dd>
+							</div>
+						</dl>
+						<!-- / .about-list -->
+						<p class="about-text-right">（順不同、敬称略）</p>
+
+						<div class="about-officeArea">事業所拠点</div>
+						<ul class="about-office-list">
+							<li class="about-office-item">
+								<p class="about-office-title">① SI 開発部</p>
+								<p class="about-office-text">
+									〒000-0000<br class="b-920"> 兵庫県神戸市 0-0-0<br>
+									t.ozaki@wanotech.jp<br>
+								</p>
+							</li>
+							<li class="about-office-item">
+								<div class="about-office-title">② Web・DTP デザイン部</div>
+								<p class="about-office-text">
+									〒000-0000<br class="b-920"> 兵庫県神戸市 0-0-0<br>
+									n.ogata@wanotech.jp<br>
+								</p>
+							</li>
+							<li class="about-office-item">
+								<div class="about-office-title">③ Web マーケティング部</div>
+								<p class="about-office-text">
+									〒520-2144<br class="b-920"> 滋賀県大津市大萱 2-32-21<br>
+									s.takayama@wanotech.jp<br>
+								</p>
+							</li>
+						</ul>
+					</div>
+					<!-- / .about-content -->
+				</div>
+				<!-- / .inner -->
+			</section>
+			<!-- /#about.about -->
+		</main>
+		<footer class="footer">
+			<p class="footer-copy">
+				<small class="footer-copyright">&copy; わのてっく</small>
+			</p>
+		</footer>
+		<!-- /.footer -->
+	</div>
+	<!-- /.container -->
+
+	<!-- 上に戻る処理 -->
+	<div class="floating">
+		<a href="#"><i class="fas fa-chevron-up"></i></a>
+	</div>
+	<!-- 上に戻る処理 -->
+
+	<!-- modal window 1 -->
+	<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+		<!-- 背景のオーバーレイ -->
+		<div class="modal-overlay" tabindex="-1" data-micromodal-close>
+			<div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal-header">
+					<h2 class="modal-title" id="modal-1-title">01</h2>
+					<!-- 閉じるボタン -->
+					<button class="modal-close" aria-label="Close modal" data-micromodal-close></button>
+				</header>
+				<!-- モーダルのコンテンツ -->
+				<div class="modal-content" id="modal-1-content">
+					<div class="modal-content-inner">
+						<p>システムインテグレーションサービス</p>
+						<p><span class="br">システム開発・サーバー＆ネットワーク構築</span></p>
+					</div>
+
+				</div>
+				<div class="modal-1-content">
+					<div class="modal-1-content-icon">
+						<img src="assets/img/service-icon01.png" alt="icon01">
+					</div>
+					<div class="modal-1-content-text1">
+						<div class="modal-1-content-text1-inner">
+							<p>我々の強みは、お客様の身近な存在であり続けることです。
+								何が最適なのかを独断的に判断することなく、お客様と一緒に話し合い、
+								より使いやすく効率的なシステムを作り上げます。
+								また、単にシステムを作るのではなく、目的、効果を的確に判断し、
+								あらゆるフェーズのお手伝いをします。</p>
+						</div>
+						<div class="modal-1-content-text2">
+							<div class="modal-1-content-text2-inner">
+								<p>＜事例＞</p>
+								<ul>
+									<li>・JAVA、PHP、Python、C＃など始めとする言語を利用した業務</li>
+									<li>・汎用システムや組み込み制御用のシステムの開発</li>
+									<li>・VBA、Access、Javascriptなどによる開発</li>
+									<li>・サーバーネットワークの構築、運用保守に関する支援</li>
+									<li>・マニュアルの作成や利用者講習会の開催など</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- `END モーダルウィンドウ　1 -->
+
+	<!-- modal window 2 -->
+	<div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+		<!-- 背景のオーバーレイ -->
+		<div class="modal-overlay" tabindex="-1" data-micromodal-close>
+			<div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal-header">
+					<h2 class="modal-title" id="modal-2-title">02</h2>
+					<!-- 閉じるボタン -->
+					<button class="modal-close" aria-label="Close modal" data-micromodal-close></button>
+				</header>
+				<!-- モーダルのコンテンツ -->
+				<div class="modal-content" id="modal-2-content">
+					<div class="modal-content-inner">
+						<p>デザインサービス／印刷広告・Webサイト</p>
+					</div>
+
+				</div>
+				<div class="modal-1-content">
+					<div class="modal-1-content-icon">
+						<img src="assets/img/service-icon02.png" alt="icon02">
+					</div>
+					<div class="modal-1-content-text">
+						<div class="modal-1-content-text1">
+							<div class="modal-1-content-text1-inner">
+								<p>広告やWebサイトを作りたいお客様のことだけではなく、</p>
+								<p>その先におられるエンドユーザーのことも意識して制作しています。</p>
+								<p>ご要望に応じたデザインの中に、</p>
+								<p>ユーザーのもとに届いているシーンがイメージできるようなご提案をします。</p>
+							</div>
+							<div class="modal-1-content-text2">
+								<div class="modal-1-content-text2-inner">
+									<p>＜事例＞</p>
+									<p>・チラシ／フライヤー／パンフレット／リーフレット等の企画制作</p>
+									<p>・WEBサイトの構築（HTMLコーディング、CSSデザイニング）</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 開くボタン -->
+	<!-- ENDモーダルウインドウ　2-->
+
+	<!-- modal window 3 -->
+	<div class="modal micromodal-slide" id="modal-3" aria-hidden="true">
+		<!-- 背景のオーバーレイ -->
+		<div class="modal-overlay" tabindex="-1" data-micromodal-close>
+			<div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+				<header class="modal-header">
+					<h2 class="modal-title" id="modal-3-title">03</h2>
+					<!-- 閉じるボタン -->
+					<button class="modal-close" aria-label="Close modal" data-micromodal-close></button>
+				</header>
+				<!-- モーダルのコンテンツ -->
+				<div class="modal-content" id="modal-3-content">
+					<div class="modal-content-inner">
+						<p>Webマーケティング</p>
+						<p><span class="br">Webを利用した戦略的マーケティング提案</span></p>
+					</div>
+
+				</div>
+				<div class="modal-1-content">
+					<div class="modal-1-content-icon">
+						<img src="assets/img/service-icon03.png" alt="icon03">
+					</div>
+					<div class="modal-1-content-text">
+						<div class="modal-1-content-text1">
+							<div class="modal-1-content-text1-inner">
+								<p>商品企画を始めとするアイデア創造、分析のお手伝いをします。</p>
+								<p>単にSEO（検索エンジン最適化）やSEM（検索エンジンマーケティング）の提案、</p>
+								<p>ログの解析だけでなく、消費者の意識を考えた戦略の提案も行ないます。</p>
+							</div>
+							<div class="modal-1-content-text2">
+								<div class="modal-1-content-text2-inner">
+									<p>＜事例＞</p>
+									<p>・Webサイトの企画、制作、運用保守</p>
+									<p>・Webマーケティング、分析解析支援</p>
+									<p>・上記業務の講演講習会</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 開くボタン -->
+	<!-- ENDモーダルウインドウ　3 -->
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	<!-- Modaal -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+	<!-- wow js -->
+	<script src="./assets/js/wow.min.js"></script>
+	<!-- js -->
+	<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
